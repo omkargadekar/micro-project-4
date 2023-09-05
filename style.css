@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3b4664;
+}
+.calculator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.elems {
+  height: 50vh;
+  width: 25vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 18px;
+  background-color: #2c354e;
+  border-radius: 12px;
+}
+.first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.reset {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+}
+.btn {
+  height: 6vh;
+  width: 10vw;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #3b4664;
+  color: white;
+  border: none;
+}
+.btn1 {
+  height: 6vh;
+  width: 10vw;
+  border-radius: 12px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  background-color: #d13f30;
+  color: white;
+  border: none;
+}
+
+.first > input[type="button"] {
+  height: 6vh;
+  width: 5vw;
+  border-radius: 12px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  background-color: #eae3db;
+  color: #3b4664;
+  border: none;
+}
+input[type="text"] {
+  border-radius: 12px;
+  border: 1px;
+  height: 14vh;
+  width: 25vw;
+  background-color: #1c2334;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 500;
+  text-align: end;
+  padding-right: 10px;
+}
+
+#del {
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #3b4664;
+  color: white;
+}
